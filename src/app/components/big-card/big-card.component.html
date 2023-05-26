@@ -4,12 +4,14 @@
         <img width="400px" src="{{photoCover}}" alt="Foto default">
     </div>
     <div class="big-card_title">
-       <h1><a href="#">{{cardTitle}}</a></h1>
+       <h1><a [routerLink]="['content', Id]">{{cardTitle}}</a></h1>
     </div>
     <div class="big-card_description">
-        <a href="">
-        <p>{{cardDescription}} </p>
-        </a>
+
+        <p>
+            <a [routerLink]="['content', Id]">{{cardDescription}}</a>
+        </p>
+       
     </div>
 
 </div>
