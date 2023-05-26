@@ -6,12 +6,30 @@
 <app-menu-title></app-menu-title>
 <div class="container_articles">
     <div class="articles_main">
-        <app-big-card></app-big-card>
+        <!--Com isso eu consigo colocar n big card, apenas mudando esse parametro-->
+        
+        <app-big-card photoCover="https://a.espncdn.com/photo/2020/1028/r767447_1176x661_16-9.png" 
+        cardTitle="O Disney+ chegou ao Brasil!"
+        cardDescription="A partir desta terça-feira, 17 de novembro, a plataforma é o destino exclusivo para a mais completa e melhor seleção de filmes, séries e produções originais de Disney, Pixar, Marvel, Star Wars e National Geographic. Os assinantes poderão assistir ao Disney+ em diversos dispositivos móveis e TVs conectadas à Internet, incluindo: consoles de videogames, reprodutores de mídia de streaming e TVs inteligentes."></app-big-card> 
     </div>
+ 
     <div class="articles_others">
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
+        <app-small-card
+        cardTitle="Nova Série anunciada na Disney +!"
+        photoCover="https://t2.tudocdn.net/553407?w=1920"
+        >
+        
+
+        </app-small-card>
+        <app-small-card
+        cardTitle="Novo filme do Pantera Negra será lançado em breve!"
+        photoCover="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F6482D58C8BB4D899FA4682BF27652C3E1BB73F5971E5F963994112F26A73690/scale?width=1200&aspectRatio=1.78&format=jpeg"
+        
+        ></app-small-card>
+        <app-small-card
+        cardTitle="Novo filme dos X-men está em pós produção, afirma diretor!"
+        photoCover="https://t2.tudocdn.net/553407?w=1920"
+        ></app-small-card>
      
         
     </div>
